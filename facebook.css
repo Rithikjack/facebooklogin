@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    padding: 40px;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 250px;
+
+}
+.outer>.right{  
+    display: flex;
+    flex-basis: 70%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    /* background-color: rgb(255, 101, 101); */
+}
+.outer>.right h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.outer>.right > p{
+     font-family: "Inter", sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 35px;
+    word-spacing: 3px;
+}
+.outer>.left{
+    flex-basis: 30%;
+    padding-right: 80px;
+
+}
+.outer>.left >.leftouter{
+    display: flex;
+    border: none;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    /* background-color: aquamarine; */
+    padding-bottom:30px;
+    padding: 20px;
+    box-shadow: 0px 0px 8px black;
+    gap: 10px;   
+    margin-bottom: 10px;
+}
+.outer>.left >.leftouter input{
+    height: 40px;
+    text-transform: capitalize;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid rgb(125, 124, 124);
+    /* border: none; */
+}
+.left >.leftouter button{
+    height: 49px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 7px;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+}
+.left >.leftouter .b2{
+    background-color: rgb(2, 218, 2);
+
+}
+.left >.leftouter h3{
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    letter-spacing: 0.2px;
+    font-weight: lighter;
+    color: blue;
+}
+.left >.leftouter p{
+    letter-spacing: 0.3px;
+    word-spacing: 2px;
+    width: 100%;
+}
